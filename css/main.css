@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: normal;
+    color: white;
 }
 
 p {
@@ -11,7 +12,37 @@ p {
 }
 
 .card {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    padding: 10px;
+    border-radius: 25px;
+}
 
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.number-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submit-btn {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    padding: 15px 0;
+}
+
+#thank-you {
+    display: none;
 }
 
 .attribution { 
