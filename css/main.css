@@ -81,6 +81,18 @@ p {
     color: hsl(228, 45%, 44%); 
 }
 
+.active {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+/* Pseudo classes */
+.number-container div:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
 /* CSS for mobile viewport */
 @media screen and (max-width: 375px) {
 
