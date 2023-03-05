@@ -1,30 +1,58 @@
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: black;
 }
 
 h1 {
     font-weight: normal;
     color: white;
+    font-size: 1.5rem;
 }
 
 p {
     font-weight: normal;
+    font-size: 15px;
 }
 
 .card {
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 25%, 14%);
     color: hsl(216, 12%, 54%);
-    padding: 10px;
-    border-radius: 25px;
+    padding: px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 10px;
 }
+
+#icon {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+}
+
+.card-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
 
 .circle {
     border-radius: 50%;
-    background-color: white;
+    background-color: hsl(213, 19%, 20%);
     display: inline-block;
     text-align: center;
     padding: 10px;
+    color: hsl(216, 12%, 54%);
+    height: 23px;
+    width: 23px;
+    font-size: 15px;
 }
+
+
 
 .number-container {
     display: flex;
@@ -32,8 +60,8 @@ p {
 }
 
 .submit-btn {
-    width: 85%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0 auto 20px auto;
     display: block;
     border-radius: 25px;
     background-color: hsl(25, 97%, 53%);
