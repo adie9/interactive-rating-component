@@ -94,13 +94,13 @@ p {
 }
 
 .active {
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(25, 97%, 53%);
     color: white;
 }
 
 /* Pseudo classes */
 .number-container div:hover {
-    background-color: hsl(25, 97%, 53%);
+    background-color:hsl(216, 12%, 54%);
     color: white;
     transition: background-color 0.3s ease-in-out;
 }
