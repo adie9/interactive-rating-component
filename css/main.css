@@ -106,7 +106,19 @@ p {
 }
 
 
-/* CSS for laptop/desktop viewport */
-@media screen and (min-width: 375px) {
+/* Optimizing for Mobile viewport (375px) and Desktop */
+@media screen and (max-width: 375px) {
+    .card {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
+@media screen and (min-width: 376px) {
+    .card {
+        width: 287px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
