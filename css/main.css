@@ -17,25 +17,21 @@ p {
 .card {
     background-color: hsl(213, 25%, 14%);
     color: hsl(216, 12%, 54%);
-    padding: px;
+    padding: 20px;
     border-radius: 20px;
     margin-top: 150px;
     margin-left: 16px;
     margin-right: 16px;
-    padding-bottom: 10px;
 }
 
 #icon {
-    margin-left: 20px;
-    margin-top: 20px;
     height: 15px;
     width: 15px;
     padding: 10px;
 }
 
 .card-text {
-    margin-left: 20px;
-    margin-bottom: 20px;
+    
     
 }
 
@@ -56,12 +52,12 @@ p {
 
 .number-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .submit-btn {
-    width: 90%;
-    margin: 0 auto 20px auto;
+    width: 100%;
+    margin: 0 auto;
     display: block;
     border-radius: 25px;
     background-color: hsl(25, 97%, 53%);
@@ -69,8 +65,19 @@ p {
     padding: 15px 0;
 }
 
+#rate {
+    display: block
+}
+
 #thank-you {
     display: none;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#thank-you-img {
+    display: block;
+    margin: 0 auto;
 }
 
 .attribution { 
@@ -94,7 +101,7 @@ p {
 }
 
 
-/* CSS for mobile viewport */
-@media screen and (max-width: 375px) {
+/* CSS for laptop/desktop viewport */
+@media screen and (min-width: 375px) {
 
 }

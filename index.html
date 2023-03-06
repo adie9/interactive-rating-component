@@ -20,13 +20,13 @@
 
   <main>
   <!-- Rating state start -->
-  <div class="card">
+  <div id="rate" class="card">
     
     <img id="icon" class="circle" src="images/icon-star.svg" alt="star icon">
 
-    <h1 class="card-text">How did we do?</h1>
+    <h1>How did we do?</h1>
       
-    <p class="card-text">Please let us know how we did with your support request. All feedback is appreciated 
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
       to help us improve our offering!</p>
       
     <div class="number-container">
@@ -44,7 +44,9 @@
 
   <!-- Thank you state start -->
   <div id="thank-you" class="card">
-    <p>You selected <!-- Add rating here --> out of 5</p>
+    <img src="images/illustration-thank-you.svg" id="thank-you-img">
+    
+    <p id="selection">You selected <!-- Add rating here --> out of 5</p>
     
     <h1>Thank you!</h1>
     
@@ -57,7 +59,7 @@
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Adrian Guerra</a>.
     </div>
   </footer>
 
